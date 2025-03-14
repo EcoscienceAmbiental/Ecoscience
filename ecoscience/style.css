@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    box-sizing: default;
+}
+
+#navheader{
+    padding: 20px 10px 20px 10px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+body{
+    background: linear-gradient();
+}
+
