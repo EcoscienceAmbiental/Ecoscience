@@ -5,12 +5,6 @@
     margin: 0;
     box-sizing: default;
 }
-/*inicio da parte do header*/
-#headertitle{
-    padding: 12px 0px 10px 0px;
-    background-color: #3cc47c;
-    text-align: center;
-}
 
 #headertitle a{
     font-size: 25px;
@@ -18,7 +12,7 @@
 
 a{
     font-size: 22px;
-    color: white;
+    color: #034061;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -27,13 +21,15 @@ a{
 }
 
 a:hover{
-    border-bottom: solid 3px white;
+    border-bottom: solid 3px #0097B2 ;
 }
 
 #navhead{
-    background-color: #1e392a;
-    padding: 20px 10px 20px 10px;
+    align-items: center;
+    background-color: #F2F8E7;
+    padding: 10px 5px 10px 5px;
     justify-content: space-evenly;
     display: flex;
+    border-bottom: solid 2px #0097B2;
 }
 /*fim da parte do header*/
