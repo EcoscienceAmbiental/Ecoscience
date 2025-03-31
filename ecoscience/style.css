@@ -20,7 +20,7 @@ a{
     transition: linear 0.1s;    
 }
 
-a:hover{
+.hd:hover{
     border-bottom: solid 3px #0097B2 ;
 }
 
