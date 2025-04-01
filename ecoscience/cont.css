@@ -17,10 +17,14 @@ a{
     font-optical-sizing: auto;
     font-style: normal;
     text-decoration: none;
-    transition: linear 0.1s;    
+    transition: linear 0.1s;
 }
 
 .hd:hover{
+    border-bottom: solid 3px #0097B2 ;
+}
+
+#pa{
     border-bottom: solid 3px #0097B2 ;
 }
 
