@@ -12,12 +12,14 @@
 
 a{
     font-size: 22px;
-    color: #034061;
+    color: #f6f6f6;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     text-decoration: none;
-    transition: linear 0.1s;    
+    transition: linear 0.1s;
+   
+  
 }
 
 .hd:hover{
@@ -26,11 +28,9 @@ a{
 
 #navhead{
     align-items: center;
-    background-color: #F2F8E7;
     padding: 10px 5px 10px 5px;
     justify-content: space-evenly;
     display: flex;
-    border-bottom: solid 2px #0097B2;
 }
 /*fim da parte do header*/
 
@@ -44,7 +44,7 @@ a{
     object-fit: cover;
     height: 600px;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 #intr p{
@@ -85,4 +85,22 @@ a{
 
 .cards:hover{
     width: 35%;
+}
+
+/* Estilo inicial do header */
+#navheader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent; /* Começa transparente */
+    transition: background-color 0.3s ease-in-out; /* Efeito suave */
+    padding: 10px 0;
+    z-index: 1000; /* Garante que fique acima do conteúdo */
+}
+
+/* Quando rolar para baixo */
+#navheader.scrolled {
+    background-color: #0097B2; /* Cor sólida ao rolar */
+    border-bottom: solid 2px #0097B2;
 }

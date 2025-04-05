@@ -12,7 +12,7 @@
         
         <nav id="navheader">
             <section id="navhead">
-                <a href="index.html"><img src="logo.png" alt="" width="160"></a>
+                <a href="index.html"><img src="ecoscience69.png" alt="" width="160"></a>
                 <a class="hd" href="calc.html">Calculadora</a>
                 <a class="hd" href="cont.html">Impacto</a>
                 <a class="hd" href="ajuda.html">Como ajudar</a>
@@ -21,8 +21,8 @@
     </header>
 
     <section id="intr">
-        <img src="intr2.jpg" alt="">
-        <p>Uma plataforma dedicada a informar, educar e inspirar ações sustentáveis para um planeta mais saudável. Sabemos que o cuidado com o meio ambiente é uma responsabilidade de todos, e é por isso que buscamos proporcionar aos nossos visitantes ferramentas práticas e conteúdos valiosos sobre como reduzir a pegada ecológica.</p>
+        <img src="intr3.jpg" alt="">
+        
     </section>
 
     <nav id="nav2">
@@ -30,5 +30,16 @@
         <div class="cards">a</div>
         <div class="cards">a</div>
     </nav>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            var nav = document.getElementById("navheader");
+            if (window.scrollY > 50) { 
+                nav.classList.add("scrolled"); // Adiciona a classe ao rolar
+            } else {
+                nav.classList.remove("scrolled"); // Remove ao voltar para o topo
+            }
+        });
+    </script>
 </body>
 </html>
