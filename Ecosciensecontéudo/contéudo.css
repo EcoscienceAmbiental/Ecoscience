@@ -1,0 +1,36 @@
+@charset "UTF-8";
+h1 {
+    text-align: center;
+    color: rgb(47, 138, 138);
+    font-family: Helvetica;
+}
+
+h2,h3 {
+    color: rgb(57, 184, 184);
+
+}
+
+li,p{
+    font-size: 18px;
+
+}
+
+h3{
+    font-size: 22px;
+
+}   
+
+h2{
+    font-size: 26px;
+
+}
+
+h1{
+    font-size: 30px;
+
+}   
+
+h1,h2,h3,p,li{
+    font-family: Helvetica;
+
+}

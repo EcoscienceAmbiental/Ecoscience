@@ -47,7 +47,7 @@ a{
 
 /* Quando rolar para baixo */
 #navheader.scrolled {
-    background-color: #0097B2;
+    background-color: #005d6d;
 }
 
 #intr{
@@ -81,12 +81,37 @@ a{
     width: 32%;
 }
 
-h1{
+.acards img{
+    
+    object-fit: cover;
+}
+
+body h1{
     padding:15px 0px 0px 0px;
     text-align: center;
 }
 
+body p{
+    text-indent: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+
+/*inicio do footer */
+footer{
+    display: block;
+}
+
+#f1{
+    background-color: #0d8aa0;
+}
+
+#f2{
+    text-align: center;
+    background-color:#005d6d;
+    padding: 15px 0px 15px 0px;
+}
 
 @media screen {
     
